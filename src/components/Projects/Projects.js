@@ -7,7 +7,7 @@ import ecommerce from "../../Assets/Projects/e-commerce.png";
 import solarsystem from "../../Assets/Projects/solar-system.png";
 import molegame from "../../Assets/Projects/mole-game.PNG";
 import NasaImg from "../../Assets/Projects/NasaImg.png";
-import MovieApp from "src/Assets/Projects/movie-app.png"
+import MovieApp from "../../Assets/Projects/movie-app.png"
 
 function Projects() {
   return (
