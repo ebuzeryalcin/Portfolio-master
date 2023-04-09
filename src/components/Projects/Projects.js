@@ -7,6 +7,7 @@ import ecommerce from "../../Assets/Projects/e-commerce.png";
 import solarsystem from "../../Assets/Projects/solar-system.png";
 import molegame from "../../Assets/Projects/mole-game.PNG";
 import NasaImg from "../../Assets/Projects/NasaImg.png";
+import MovieApp from "src/Assets/Projects/movie-app.png"
 
 function Projects() {
   return (
@@ -28,6 +29,17 @@ function Projects() {
               description=""
               ghLink="https://github.com/ebuzeryalcin/solar-system"
               demoLink="https://storied-cendol-8ca6e0.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MovieApp}
+              isBlog={false}
+              title="Movie-App"
+              description=""
+              ghLink="https://github.com/ebuzeryalcin/Movie-App"
+              demoLink="https://movie-app-nine-teal.vercel.app/"
             />
           </Col>
 
