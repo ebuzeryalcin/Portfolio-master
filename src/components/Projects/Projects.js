@@ -60,7 +60,7 @@ function Projects() {
               isBlog={false}
               title="E-commerce"
               description=""
-              demoLink="https://zingy-hummingbird-fb0de4.netlify.app/"              
+              demoLink="https://ecommerce-next-eight-peach.vercel.app/"              
             />
           </Col>
 
