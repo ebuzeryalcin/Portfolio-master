@@ -60,6 +60,7 @@ function Projects() {
               isBlog={false}
               title="E-commerce"
               description=""
+              ghLink="https://github.com/ebuzeryalcin/ecommerce_next"
               demoLink="https://ecommerce-next-eight-peach.vercel.app/"              
             />
           </Col>
