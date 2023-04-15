@@ -8,6 +8,7 @@ import solarsystem from "../../Assets/Projects/solar-system.png";
 import molegame from "../../Assets/Projects/mole-game.PNG";
 import NasaImg from "../../Assets/Projects/NasaImg.png";
 import MovieApp from "../../Assets/Projects/movie-app.png"
+import carrental from "../../Assets/Projects/car-rental.png"
 
 function Projects() {
   return (
@@ -62,6 +63,17 @@ function Projects() {
               description=""
               ghLink="https://github.com/ebuzeryalcin/ecommerce_next"
               demoLink="https://ecommerce-next-eight-peach.vercel.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={carrental}
+              isBlog={false}
+              title="E-commerce"
+              description=""
+              ghLink="https://github.com/ebuzeryalcin/Car-Rental"
+              demoLink="https://car-rental-jade.vercel.app/home"              
             />
           </Col>
 
