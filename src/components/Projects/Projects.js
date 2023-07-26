@@ -9,6 +9,7 @@ import molegame from "../../Assets/Projects/mole-game.PNG";
 import NasaImg from "../../Assets/Projects/NasaImg.png";
 import MovieApp from "../../Assets/Projects/movie-app.png"
 import carrental from "../../Assets/Projects/car-rental.png"
+import nextblog from "../../Assets/Projects/nextblog.png"
 
 function Projects() {
   return (
@@ -22,6 +23,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nextblog}
+              isBlog={false}
+              title="Next-blog"
+              description=""
+              ghLink="https://github.com/ebuzeryalcin/next-blog"
+              demoLink="https://next-blog-93tw25pu4-ebuzeryalcin.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={solarsystem}
