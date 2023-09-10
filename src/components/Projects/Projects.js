@@ -10,6 +10,7 @@ import NasaImg from "../../Assets/Projects/NasaImg.png";
 import MovieApp from "../../Assets/Projects/movie-app.png"
 import carrental from "../../Assets/Projects/car-rental.png"
 import nextblog from "../../Assets/Projects/nextblog.png"
+import nextfood from "../../Assets/Projects/nextfood.png"
 
 function Projects() {
   return (
@@ -31,6 +32,15 @@ function Projects() {
               description=""
               ghLink="https://github.com/ebuzeryalcin/next-blog"
               demoLink="https://next-blog-93tw25pu4-ebuzeryalcin.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nextfood}
+              isBlog={false}
+              title="Next-Food"
+              description=""
+              ghLink="https://github.com/ebuzeryalcin/Yumi-Food-Main"
             />
           </Col>
           <Col md={4} className="project-card">
